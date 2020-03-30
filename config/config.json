@@ -1,0 +1,16 @@
+{
+  "input_folder": "/data/",
+  "input_file_name": "US_County_Info.csv",
+  "Author": "Swami V",
+  "Date": "03/29/2020",
+  "covid_data_url": "https://usafactsstatic.blob.core.windows.net/public/data/covid-19/covid_confirmed_usafacts.csv",
+  "columns": [
+    "County Name",
+    "State",
+    "3/28/2020",
+    "County_Population",
+    "County_Population_Density_m2"
+  ],
+  "output_path": "/Output/",
+  "output_dataset_file_name": "COVID"
+}
