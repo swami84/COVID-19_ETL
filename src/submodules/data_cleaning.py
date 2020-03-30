@@ -45,7 +45,3 @@ class ETL:
         os.makedirs(output_dpath, exist_ok=True)
         df_covid_county.to_csv(output_fpath)
 
-os.chdir('..')
-os.chdir('..')
-a = ETL()
-a.generate_report()
