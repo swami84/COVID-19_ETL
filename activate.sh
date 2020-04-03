@@ -1,2 +1,2 @@
-readonly sourceFile="./env/bin/activate"
+sourceFile="./env/bin/activate"
 source ${sourceFile}
