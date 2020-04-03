@@ -6,10 +6,10 @@ python3 -m venv env
 #source $(pwd)/activate.sh
 #sourceFile="./env/bin/activate"
 #source ${sourceFile}
-. env/bin/activate
+#. env/bin/activate
 
 cd env
 cp ../requirements.txt req.txt
 pip install -r req.txt
 cd ..
-python3 src/run_ETL.py
+env/bin/python3 src/run_ETL.py
