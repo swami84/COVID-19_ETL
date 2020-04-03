@@ -6,7 +6,10 @@ python3 -m venv env
 #source $(pwd)/activate.sh
 #sourceFile="./env/bin/activate"
 #source ${sourceFile}
-alias activate="source ./env/bin/activate"
+activate () {
+    echo Activating Virtual Environment...
+    source env/bin/activate
+}
 activate
 cd env
 cp ../requirements.txt req.txt
