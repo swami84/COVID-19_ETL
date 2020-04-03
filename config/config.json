@@ -2,15 +2,22 @@
   "input_folder": "/data/",
   "input_file_name": "US_County_Info.csv",
   "Author": "Swami V",
-  "Date": "03/29/2020",
-  "covid_data_url": "https://usafactsstatic.blob.core.windows.net/public/data/covid-19/covid_confirmed_usafacts.csv",
+  "Config_File_Creation_Date": "03/29/2020",
+  "confirmed_case_url": "https://usafactsstatic.blob.core.windows.net/public/data/covid-19/covid_confirmed_usafacts.csv",
+  "death_case_url": "https://usafactsstatic.blob.core.windows.net/public/data/covid-19/covid_deaths_usafacts.csv",
   "columns": [
+    "countyFIPS",
     "County Name",
     "State",
-    "3/29/20",
     "County_Population",
     "County_Population_Density_m2"
   ],
   "output_path": "/Output/",
-  "output_dataset_file_name": "COVID"
+  "output_dataset_file_name": "COVID",
+  "Rename_Columns": {
+    "County Name": "County",
+    "State": "State",
+    "County_Population": "Population",
+    "County_Population_Density_m2": "Population Density"
+  }
 }
