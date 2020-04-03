@@ -2,9 +2,8 @@
 
 echo $"Installing the dependencies for Covid-19 ETL Task"
 python3 -m venv env
-chmod u+x ./activate.sh
+chmod u+x ../activate.sh
 source ./activate.sh
-source $(pwd)/env/bin/activate
 cd env
 cp ../requirements.txt req.txt
 pip install -r req.txt
