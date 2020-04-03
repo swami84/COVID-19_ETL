@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo $"Installing the dependencies for Covid-19 ETL Task"
 python3 -m venv env
 cd env
