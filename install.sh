@@ -2,13 +2,13 @@
 
 echo $"Installing the dependencies for Covid-19 ETL Task"
 python3 -m venv env
-#chmod u+x ./activate.sh
-#source $(pwd)/activate.sh
+chmod u+x ./act_env.sh
+source ./act_env.sh
 #sourceFile="./env/bin/activate"
 #source ${sourceFile}
 #alias activate  = "source env/bin/activate"
 #activate
-$(source env/bin/activate)
+#$(source env/bin/activate)
 
 
 cd env
