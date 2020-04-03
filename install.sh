@@ -12,6 +12,10 @@ activate () {
 }
 export -f activate
 activate
+source ~/.bash_profile
+
+# source the virtualenv
+source env/bin/activate
 cd env
 cp ../requirements.txt req.txt
 pip install -r req.txt
