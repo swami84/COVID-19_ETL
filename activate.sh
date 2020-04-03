@@ -1,2 +1,2 @@
-echo "$(pwd)/env/bin/activate"
-source $(pwd)/env/bin/activate
+readonly sourceFile="./env/bin/activate"
+source ${sourceFile}
