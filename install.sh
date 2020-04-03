@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo $"Installing the dependencies for Covid-19 ETL Task"
 python3 -m venv env
@@ -6,8 +6,10 @@ python3 -m venv env
 #source $(pwd)/activate.sh
 #sourceFile="./env/bin/activate"
 #source ${sourceFile}
-alias activate  = "source env/bin/activate"
-activate
+#alias activate  = "source env/bin/activate"
+#activate
+$(source env/bin/activate)
+
 
 cd env
 cp ../requirements.txt req.txt
